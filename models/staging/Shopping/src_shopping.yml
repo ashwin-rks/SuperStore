@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: shopping
+    database: raw
+    schema: shopping
+    tables:
+      - name: customer
+        description: customer table
+      - name: market
+        description: market table
+      - name: orders
+        description: orders table
+      - name: shipping
+        description: shipping table
+      - name: product
+        description: product table
